@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jessykim/express-intro-lab/issues"
   },
-  "homepage": "https://github.com/jessykim/express-intro-lab#readme"
+  "homepage": "https://github.com/jessykim/express-intro-lab#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
