@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mr. Ratburn's Class</title>
 </head>
 <body>
-  
+  <h1>Mr. Ratburn's Third Grade Class</h1>
+  <% students.forEach(student => { %>
+    <li>
+      <%= student.name %>
+      <%= student.animal %>
+      - 
+      <%= student.attendance ? 'present' : 'absent' %>
+    </li>
+  <% }) %> 
 </body>
 </html>
