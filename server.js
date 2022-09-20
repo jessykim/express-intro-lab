@@ -17,6 +17,10 @@ app.use(express.static('public'))
 
 // Mount routes
 
+app.get('/', function(req, res) {
+  res.redirect('/students')
+})
+
 app.get('/home', function(req, res) {
   res.render('home')
 })
