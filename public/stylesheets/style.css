@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+
+h1 {
+  margin: 0px;
+  padding: 15px;
+}
+
+body > div {
+  padding: 30px;
+}
+
+#teacher {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
