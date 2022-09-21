@@ -33,6 +33,6 @@ app.get('/students', function(req, res) {
 
 // Tell the app to listen on port 3000
 
-app.listen(4000, function() {
-  console.log('Listening on port 4000')
+app.listen(3000, function() {
+  console.log('Listening on port 3000')
 })
